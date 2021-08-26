@@ -1,0 +1,85 @@
+3rd-party-licenses.txt updated 2021-08-24
+========
+
+This file is a list of the licenses of the third-party software used by
+NetScanner and the other tools distributed with it. What follows is a
+description of each third-party package. At the end of this file is the
+license of each. The license of NetScanner itself is in the COPYING file.
+
+NetScanner uses:
+ o JH Software's DNS Client Library for .NET (v.1.0.1.0):
+   Freeware Networking library, used for NSLookup.
+   JHSoftware.DnsClient.dll file embedded into NetScanner.exe for portability.
+   You can find more info here: http://www.simpledns.com/dns-client-lib.aspx
+   If this page is not available, you can find it here:
+   https://web.archive.org/search.php
+
+ o Certain Nmap Scripting Engine scripts (NSE) use the simplified BSD license.
+
+========
+
+License of JH Software's DNS Client Library for .NET (v.1.0.1.0)
+
+JH Software's DNS Client Library for .NET
+=========================================
+Copyright 2009 JH Software Aps
+
+Files:
+1) JHSoftware.DnsClient.dll
+This is the library itself. 
+Reference this file in your .NET project.
+For ASP.NET projects place this file in the "Bin" folder.
+
+2) JHSoftware.DnsClient.xml
+This file provides intellisense in Visual Studio.
+Place it in the same folder as the .dll file.
+Not required/needed for production distribution.
+
+3) JHSoftware.DnsClient.chm
+This is the help file.
+Not required/needed for production distribution.
+
+For more information visit http://www.simpledns.com/dns-client-lib.aspx
+
+License Terms:
+This software is provided to you free of charge (freeware). 
+You may not reverse engineer it or pass it on as your own as your own creation, 
+but otherwise you are free to use it, include it with other products and services, 
+and distribute it through any media in any way you like. We would of course 
+appreciate a link back to this page page, and/or to be mentioned in the credits 
+of whatever you use it for, but neither is required.
+
+========
+
+License of BSD
+
+THE "BSD" LICENCE
+-----------------
+Copyright. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+   1. Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+
+   2. Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHORS ``AS IS'' AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The views and conclusions contained in the software and documentation are those
+of the authors and should not be interpreted as representing official policies,
+either expressed or implied, of the authors.
+
+========
